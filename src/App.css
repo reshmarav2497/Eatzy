@@ -1,0 +1,294 @@
+/* Header styles */
+
+body, html{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 8px #00000024;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#f4f1f1;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+
+.logo{
+    width: 100px;
+}
+
+nav > ul{
+    display: flex;
+    gap: 1em;
+    margin-right: 10px;
+}
+
+nav > ul > li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    list-style: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid transparent;
+}
+
+nav > ul > li:hover{
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+}
+
+/* Filter buttom styles */
+
+.filter-reset-search, .shimmer-btn-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.filter-btn, .shimmer-btn{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 10px;
+    height: 40px;
+    background-color: rgb(234, 229, 229);
+    color: black;
+    border: none;
+    border-radius: 20px;
+}
+
+.filter-btn:hover{
+    box-shadow: 0 2px 2px rgba(163, 160, 160, 0.2);
+}
+
+.filter-btn.active {
+  border: 2px solid gray;
+  background-color: #f0f0f0;
+}
+
+.filter-btn, .shimmer-btn{
+    min-width: 120px;
+}
+
+.filter-btn:hover{
+    cursor: pointer;
+}
+
+/* Search bar styles */
+
+.search-div{
+  display: grid;
+  grid-template-columns: 1fr 11fr;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid gray;
+  border-radius: 20px;
+  padding: 0px 10px;
+}
+
+.search-div .search-input{
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 5px;
+  width: auto;
+}
+
+.search-div .search-input:focus{
+  border: none;
+  outline: none;
+}
+
+.no-results{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-weight: bold;
+}
+
+/* restaurant container styles */
+
+.resturantCont{
+    display: grid;
+    grid-template-columns: repeat(4, 250px); 
+    gap: 5em; 
+    padding: 16px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.cardCont{
+    width: 250px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.cardCont:hover{
+    cursor: pointer;
+    background: #f9f7f7;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.restImgCont{
+    width: 100%;
+    height: 200px;  
+    margin-bottom: 10px;
+}
+
+.restImgCont > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.restDeatils{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5em;
+    overflow: hidden;
+    margin: 5px 10px;
+    text-overflow: ellipsis;;
+}
+
+.rating-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3px;
+}
+
+.rest-rating-cost{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    font-size: 16px;
+}
+
+.rest-name {
+  font-weight: bold;
+  font-size: 18px;
+  white-space: nowrap;        
+  overflow: hidden;           
+  text-overflow: ellipsis;    
+  display: block;
+  max-width: 100%;
+}
+
+.resRating{
+   font-weight: bold; 
+}
+
+.cuisineType {
+  font-size: 16px;
+  font-weight: 500;
+  color: gray;
+  white-space: nowrap;       
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  max-width: 100%;
+}
+
+.costForTwo{
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.devivery-time{
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 14px;
+  font-weight: 400;
+  color: gray;
+}
+
+/* footer styles */
+
+.footer{
+    display: flex;
+    min-height: 4em;
+    justify-content: center;
+    align-items: center;
+    background-color:#f4f1f1;
+}
+
+
+/* Shimmer card container */
+.shimmer-card {
+    margin: 20px 10px;
+    width: 250px;
+    height: 280px;
+    border-radius: 20px;
+}
+
+/* Shimmer image placeholder */
+.shimmer-img {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+
+/* Shimmer lines for text */
+.shimmer-line {
+  height: 15px;
+  background: #f0f0f0;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+/* Shimmer animation */
+.animate {
+  background: linear-gradient(
+    90deg,
+    #f0f0f0 25%,
+    #e0e0e0 50%,
+    #f0f0f0 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite linear;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* responsive breakpoints */
+@media (max-width: 1100px) {
+  .resturantCont {
+    grid-template-columns: repeat(3, 250px);
+  }
+}
+
+@media (max-width: 760px) {
+  .resturantCont {
+    grid-template-columns: repeat(2, 250px);
+  }
+}
+
+@media (max-width: 420px) {
+  .resturantCont {
+    grid-template-columns: 1fr;
+  }
+}

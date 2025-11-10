@@ -1,0 +1,32 @@
+{
+  "name": "eatzy",
+  "version": "1.0.0",
+  "description": "Eatzy",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reshmarav2497/Eatzy.git"
+  },
+  "author": "Reshma Raveendra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reshmarav2497/Eatzy/issues"
+  },
+  "homepage": "https://github.com/reshmarav2497/Eatzy#readme",
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  },
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^7.1.0",
+    "@fortawesome/react-fontawesome": "^3.1.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router": "^7.9.5"
+  },
+  "browserslist": [
+    "last 2 Chrome version"
+  ]
+}
