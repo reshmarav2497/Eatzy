@@ -2,7 +2,7 @@
 
 Eatzy is a small demo food-delivery app built to showcase a responsive React frontend, reusable UI components, and a simple project structure you can extend with cart logic, authentication, and a backend API.
 
-This README explains how to run, build, and extend the project and includes quick deployment suggestions you can add to your resume or portfolio.
+[Demo Link](https://eatzy-alpha.vercel.app/)
 
 ---
 
