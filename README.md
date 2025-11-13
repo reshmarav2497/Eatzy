@@ -52,7 +52,3 @@ Make sure routes are wired in `src/App.js` and that `react-router-dom` is instal
 - `src/App.css` — styling
 
 ---
-
-## Wireframe
-<img width="1891" height="916" alt="image" src="https://github.com/user-attachments/assets/f685af62-4d24-4c4f-ba3e-5ac12db0285b" />
-
