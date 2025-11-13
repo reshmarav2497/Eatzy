@@ -60,7 +60,7 @@ const Contact = () => {
           >
             <h3 className="rest-name">Get in touch</h3>
             <p className="cuisineType">Email: hello@eatzy.example</p>
-            <p className="cuisineType">Phone: +91 90000 00000</p>
+            <p className="cuisineType">Phone: +91 XXXXX 00000</p>
             <p className="cuisineType">Address: Bengaluru, India</p>
             <div style={{ marginTop: 10 }}>
               <h4 className="rest-name">Support hours</h4>
